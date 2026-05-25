@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/index.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <!-- About Us -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/about.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- Academics -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/academics.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- Admissions -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/admissions.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <!-- Facilities -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/facilities.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <!-- Photo Gallery -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/gallery.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <!-- Mandatory CBSE Disclosure -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/disclosure.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- News & Events -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/news.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- Achievements -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/achievements.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <!-- Faculty -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/faculty.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <!-- Downloads -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/downloads.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <!-- Careers -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/careers.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <!-- Transport -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/transport.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <!-- Contact Us -->
+  <url>
+    <loc>https://idpsnidagundi.edu.in/contact.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+</urlset>

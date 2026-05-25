@@ -1,0 +1,9 @@
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# INTERNATIONAL DELHI PUBLIC SCHOOL, NIDAGUNDI - SEO ROBOTS.TXT
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://idpsnidagundi.edu.in/sitemap.xml

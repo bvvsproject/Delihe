@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Premium Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BF953F" />
+      <stop offset="25%" stop-color="#FCF6BA" />
+      <stop offset="50%" stop-color="#B38728" />
+      <stop offset="75%" stop-color="#FBF5B7" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051937" />
+      <stop offset="50%" stop-color="#0D2C6C" />
+      <stop offset="100%" stop-color="#18438E" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E7D32" />
+      <stop offset="100%" stop-color="#0F5A1D" />
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF512F" />
+      <stop offset="50%" stop-color="#DD2476" />
+      <stop offset="100%" stop-color="#FFD200" />
+    </linearGradient>
+
+    <!-- Path for Top Circular Text -->
+    <path id="topTextPath" d="M 70,250 A 180,180 0 0,1 430,250" fill="none" />
+    <!-- Path for Bottom Circular Text -->
+    <path id="bottomTextPath" d="M 430,250 A 180,180 0 0,1 70,250" fill="none" />
+  </defs>
+
+  <!-- Outer Ring (Gold) -->
+  <circle cx="250" cy="250" r="230" fill="none" stroke="url(#goldGrad)" stroke-width="4" />
+
+  <!-- Main Ring (Royal Blue) -->
+  <circle cx="250" cy="250" r="212" fill="#0D2C6C" stroke="url(#goldGrad)" stroke-width="3" />
+
+  <!-- Inner Band (White Background for Logo Text / Contrast) -->
+  <circle cx="250" cy="250" r="195" fill="#FFFFFF" stroke="url(#goldGrad)" stroke-width="2" />
+
+  <!-- Center Shield Base (Green) -->
+  <circle cx="250" cy="250" r="145" fill="#1E7D32" stroke="url(#goldGrad)" stroke-width="3" />
+
+  <!-- Circular Typography on White Background -->
+  <!-- Top Text -->
+  <text font-family="'Poppins', sans-serif" font-size="16.5" font-weight="800" fill="#0D2C6C" letter-spacing="4">
+    <textPath href="#topTextPath" startOffset="50%" text-anchor="middle">
+      INTERNATIONAL DELHI PUBLIC SCHOOL
+    </textPath>
+  </text>
+
+  <!-- Bottom Text -->
+  <text font-family="'Poppins', sans-serif" font-size="19" font-weight="800" fill="#1E7D32" letter-spacing="6">
+    <textPath href="#bottomTextPath" startOffset="50%" text-anchor="middle">
+      NIDAGUNDI
+    </textPath>
+  </text>
+
+  <!-- Small Separator Stars -->
+  <g fill="url(#goldGrad)">
+    <circle cx="62" cy="250" r="5" />
+    <circle cx="438" cy="250" r="5" />
+  </g>
+
+  <!-- Center Crest - Gold Shield & Icons -->
+  <g transform="translate(250, 245)">
+    <!-- Elegant Shield Contour -->
+    <path d="M -70,-80 L 70,-80 C 70,-80 80,10 70,40 C 55,75 0,100 0,100 C 0,100 -55,75 -70,40 C -80,10 -70,-80 -70,-80 Z" 
+          fill="url(#blueGrad)" stroke="url(#goldGrad)" stroke-width="4" filter="drop-shadow(0px 5px 6px rgba(0,0,0,0.3))" />
+
+    <!-- Open Book of Knowledge -->
+    <!-- Left Page -->
+    <path d="M -45,15 C -30,5 -15,10 0,18 L 0,-15 C -15,-23 -30,-18 -45,-8 Z" fill="#FFFFFF" stroke="#000000" stroke-width="0.5" />
+    <!-- Right Page -->
+    <path d="M 45,15 C 30,5 15,10 0,18 L 0,-15 C 15,-23 30,-18 45,-8 Z" fill="#FFFFFF" stroke="#000000" stroke-width="0.5" />
+    <!-- Book Lines (Text effect) -->
+    <path d="M -35,-2 L -10,-8 M -35,3 L -10,-3 M -35,8 L -10,2" fill="none" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 35,-2 L 10,-8 M 35,3 L 10,-3 M 35,8 L 10,2" fill="none" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Education Torch -->
+    <!-- Torch Stand -->
+    <path d="M -6,-40 L 6,-40 L 10,-7 L -10,-7 Z" fill="url(#goldGrad)" stroke="#553A00" stroke-width="1" />
+    <path d="M -12,-40 C -12,-40 0,-48 0,-48 C 0,-48 12,-40 12,-40 L -12,-40 Z" fill="#E5C158" />
+    <path d="M -2,-7 L 2,-7 L 4,20 L -4,20 Z" fill="url(#goldGrad)" />
+    <!-- Flaming Fire -->
+    <path d="M 0,-45 C -12,-55 -8,-75 0,-85 C 8,-75 12,-55 0,-45 Z" fill="url(#flameGrad)" />
+    <path d="M 0,-48 C -6,-55 -4,-68 0,-74 C 4,-68 6,-55 0,-48 Z" fill="#FFCC00" opacity="0.9" />
+
+    <!-- Stars (Knowledge, Integrity, Excellence) -->
+    <g transform="translate(0, -98)" fill="url(#goldGrad)">
+      <!-- Center Star -->
+      <polygon points="0,-12 3,-3 12,-3 5,2 8,11 0,5 -8,11 -5,2 -12,-3 -3,-3" />
+      <!-- Left Star -->
+      <polygon points="-38,0 -35,9 -26,9 -33,14 -30,23 -38,17 -46,23 -43,14 -50,9 -41,9" />
+      <!-- Right Star -->
+      <polygon points="38,0 41,9 50,9 43,14 46,23 38,17 30,23 33,14 26,9 35,9" />
+    </g>
+  </g>
+
+  <!-- Banner Ribbon (Affiliated to CBSE) -->
+  <g transform="translate(250, 405)">
+    <!-- Shadow -->
+    <path d="M -130,-15 L 130,-15 L 120,15 L -120,15 Z" fill="#051937" opacity="0.3" filter="blur(2px)" />
+    <!-- Ribbon Ends -->
+    <path d="M -140,-5 L -120,-20 L -120,10 Z" fill="#B38728" />
+    <path d="M 140,-5 L 120,-20 L 120,10 Z" fill="#B38728" />
+    <!-- Main Ribbon Plate -->
+    <path d="M -125,-20 L 125,-20 C 125,-20 135,0 125,12 C 115,22 -115,22 -125,12 C -135,0 -125,-20 -125,-20 Z" 
+          fill="url(#goldGrad)" stroke="#AA771C" stroke-width="1.5" />
+    <!-- Ribbon Text -->
+    <text x="0" y="1.5" font-family="'Poppins', sans-serif" font-size="12" font-weight="800" fill="#0D2C6C" text-anchor="middle" letter-spacing="1.5">
+      AFFILIATED TO CBSE
+    </text>
+  </g>
+</svg>
