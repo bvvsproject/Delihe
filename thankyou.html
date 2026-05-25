@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | International Delhi Public School, Nidagundi</title>
+  <meta name="description" content="Thank you for submitting your admission inquiry to IDPS Nidagundi. Your application has been successfully registered.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .thankyou-card {
+      background-color: var(--color-bg-white);
+      border-radius: var(--radius-lg);
+      padding: 60px 40px;
+      max-width: 600px;
+      margin: 60px auto;
+      text-align: center;
+      box-shadow: 0 15px 50px rgba(7, 29, 75, 0.05);
+      border: 1px solid var(--color-border);
+    }
+    
+    .pulse-check-icon {
+      width: 80px;
+      height: 80px;
+      background-color: rgba(30, 125, 50, 0.1);
+      color: var(--color-accent-green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      margin: 0 auto 30px auto;
+      position: relative;
+    }
+    
+    .pulse-check-icon::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 2px solid var(--color-accent-green);
+      border-radius: 50%;
+      top: 0;
+      left: 0;
+      animation: pulseSuccess 2s infinite ease-in-out;
+    }
+    
+    @keyframes pulseSuccess {
+      0% { transform: scale(1); opacity: 1; }
+      100% { transform: scale(1.3); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header></header>
+
+  <main>
+    <!-- Inner Page Hero -->
+    <section class="inner-hero" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1600&auto=format&fit=crop');">
+      <div class="inner-hero-overlay"></div>
+      <div class="container inner-hero-content">
+        <h1 class="inner-hero-title">Submission Confirmed</h1>
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Thank You</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thank you Content -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="thankyou-card reveal active">
+          <div class="pulse-check-icon">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <h2 style="margin-bottom:16px; font-family:var(--font-heading); color:var(--color-primary-dark);">Application Registered!</h2>
+          <p style="color:var(--color-text-muted); margin-bottom:35px; font-size:1rem; max-width: 500px; margin-left:auto; margin-right:auto;">
+            Thank you for choosing International Delhi Public School, Nidagundi. Your admission inquiry has been securely submitted via Web3Forms. A copy has been dispatched to our counselor, who will contact you within 24 hours to schedule school visits and assessments.
+          </p>
+          <a href="index.html" class="btn btn-green" style="padding:14px 45px;"><i class="fa-solid fa-house"></i> Return to Homepage</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
